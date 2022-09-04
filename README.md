@@ -1,2 +1,2 @@
 # belizer.github.io
-bolg project for belizer.github.io
+blog project for belizer.github.io
