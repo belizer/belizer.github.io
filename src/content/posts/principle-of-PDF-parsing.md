@@ -10,7 +10,7 @@ lang: ''
 ---
 [参考博客](https://blog.csdn.net/pdfMaker/article/details/573990?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param)
 
-## pdf规范
+#### pdf规范
 
 1. 对象, 一个PDF文档是由一组基本数据类型组成的数据结构。
 2. 文件（物理结构）, 决定对象是如何存放在一个PDF文件中的， 它们是如何被访问的，如何被更新的。这个结构是独立于对象的语义的。
@@ -19,7 +19,7 @@ lang: ''
 
 Pdf文件的格式
 
-![Untitled](Untitled.png)
+![pdf-1.png](pdf-1.png)
 
 Header  pdf文件的第一行   指明该文件所遵循的PDF规范的版本号。
 
@@ -33,6 +33,7 @@ Trailer 文件尾，声明了交叉引用表的地址，即指明了文件体的
 
 对象的结构
 
+```
 3 0 obj
 
 <<
@@ -46,10 +47,11 @@ Trailer 文件尾，声明了交叉引用表的地址，即指明了文件体的
 >>
 
 endobj
+```
 
 第一个数字称为对象号，来唯一标识一个对象的，第二个是产生号，是用来表明它在被创建后的第几次修改，所有新创建的PDF文件的产生号应该都是0，即第一次被创建以后没有被修改过。上面的例子就说明该对象的对象号是3，而且创建后没有被修改过。
 
-pdf解析
+#### pdf解析
 可以参考下面的博文：
 
 [https://blog.csdn.net/weixin_38361347/article/details/89643568](https://blog.csdn.net/weixin_38361347/article/details/89643568)
