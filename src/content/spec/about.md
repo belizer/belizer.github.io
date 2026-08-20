@@ -1,7 +1,7 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+I'm a programmer,code in java for most of time.
 
-::github{repo="saicaca/fuwari"}
+::github{repo="belizer/belizer.github.io"}
 
 > ### Sources of images used in this site
 > - [Unsplash](https://unsplash.com/)
